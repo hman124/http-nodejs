@@ -7,7 +7,7 @@ app.get("/", (req,res)=>{
 });
 
 app.get("/yes", (req,res) => {
-  res.send(Date.now());
+  res.send(Date.now().toString());
 });
 
 
